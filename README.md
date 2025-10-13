@@ -13,13 +13,6 @@
 ** Hinweis: Die Datei `kunde.csv` muss unter dem Windows-Pfad: 
 **`C:\ProgramData\MySQL\MySQL Server 8.4\Uploads`** abgelegt werden.
 
-## PowerShell Script: `Kundengenerator V1.ps1`
-- **Zweck**: Erstellt aus einem zusammengewürfelten Pool an Daten Kunden
-- **Export**: Als CSV mit beliebiger Grösse und Pfad möglich
-- **Autor**: Vatrella Luca
-- **Datum**: 12.10.2025
-- **Ausführung**: In PowerShell - als Administrator
-
 ## Das Modul verwenden:
 ```powershell
 New-CustomerData -OutputPath "C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\kunde.csv" -NumberOfRows 10000

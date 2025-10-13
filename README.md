@@ -11,7 +11,7 @@
 4. `createViewsAndSP.sql`
 
 ** Hinweis: Die Datei `kunde.csv` muss unter dem Windows-Pfad: 
-**`C:\ProgramData\MySQL\MySQL Server 8.4\Uploads`** abgelegt werden.
+**`C:\ProgramData\MySQL\MySQL Server 8.0\Uploads`** abgelegt werden.
 
 ## Das Modul verwenden:
 ```powershell

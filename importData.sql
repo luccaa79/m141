@@ -78,9 +78,9 @@ VALUES
 -- -----------------------------------------------------
 -- LOAD DATA für 'Kunde'
 -- -----------------------------------------------------
--- Windows Path: C:\ProgramData\MySQL\MySQL Server 8.4\Uploads\
+-- Windows Path: C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\
 
-LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.4\\Uploads\\Kunde.csv' 
+LOAD DATA INFILE 'C:\\ProgramData\\MySQL\\MySQL Server 8.0\\Uploads\\Kunde.csv' 
 INTO TABLE Trendwear.Kunde
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ';'

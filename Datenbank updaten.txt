@@ -1,8 +1,8 @@
 :: In den Pfad gehen: 
-cd C:\Program Files\MySQL\MySQL Server 8.4\bin
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
 
 :: Den Befehl um die ganzen Database zu Backupen 
-mysqldump --single-transaction -u root -p Techelectronics > "C:\temp\techelectronics_backup.sql"
+mysqldump --single-transaction -u root -p trendwear > "C:\temp\trendwear_backup.sql"
 
 :: Den Befehl um die Datenbank zu restoren: 
-mysqldump -u root -p techelectronics < "C:\temp\techelectronics_backup.sql"
+mysqldump -u root -p trendwear < "C:\temp\trendwear_backup.sql"

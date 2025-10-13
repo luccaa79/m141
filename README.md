@@ -12,7 +12,3 @@
 
 ** Hinweis: Die Datei `kunde.csv` muss unter dem Windows-Pfad: 
 **`C:\ProgramData\MySQL\MySQL Server 8.0\Uploads`** abgelegt werden.
-
-## Das Modul verwenden:
-```powershell
-New-CustomerData -OutputPath "C:\ProgramData\MySQL\MySQL Server 8.0\Uploads\kunde.csv" -NumberOfRows 10000
